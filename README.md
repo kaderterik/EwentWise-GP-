@@ -133,11 +133,29 @@ EventWise/
 ## 🖼️ Ekran Görüntüleri
 
 ![Giriş Ekranı](screenshots/giris.png)
+
+---
+
 ![Kayıt Ekranı](screenshots/kayıtol.png)
+
+---
+
 ![Anasayfa](screenshots/anasayfa.png)
+
+---
+
 ![Etkinlik Detayları](screenshots/etkinlik_detay.png)
+
+---
+
 ![Kaydedilenler](screenshots/kaydedilenler.png)
+
+---
+
 ![Etkinlik Pdf](screenshots/etkinlikpdf.jpg)
+
+---
+
 ![Takvim](screenshots/takvim.jpeg)
 
 ---
