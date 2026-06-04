@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>990</width>
+    <height>718</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_name">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>991</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">qproperty-alignment: &quot;AlignCenter&quot;;</string>
+    </property>
+    <property name="text">
+     <string>MY SAVED EVENTS</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tbl_etkinlikler">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>951</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Etkinlik Adı</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tarih</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mekan</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Fiyat</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Durum</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Sil</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btn_clear_all">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>540</y>
+      <width>951</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Temizle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_geri">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>610</y>
+      <width>951</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Geri</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_onayla">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>951</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Katılımı Onayla &amp; PDF İndir</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>990</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>btn_onayla</tabstop>
+  <tabstop>btn_clear_all</tabstop>
+  <tabstop>btn_geri</tabstop>
+  <tabstop>tbl_etkinlikler</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
